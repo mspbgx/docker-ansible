@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 MAINTAINER Name sparenberg@openenv.de
 
 RUN yum groupinstall -y  "Development tools"
