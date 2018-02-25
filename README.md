@@ -8,7 +8,7 @@
 
 
 ## Description
-Ansible in a docker container based on alpine image.
+Ansible in a docker container based on centos image.
 ```
 FROM centos:latest
 ```
