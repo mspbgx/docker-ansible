@@ -7,6 +7,6 @@ RUN yum install -y python-devel python2-pip
 RUN pip install --upgrade pip
 RUN pip install ansible
 
-# EXPOSE 1234
+EXPOSE 22
 
 ENTRYPOINT ["/bin/bash"]
